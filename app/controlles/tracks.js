@@ -15,7 +15,7 @@ const getItems = async (req, res) => {
                     "nickname": "Ehta Gente",
                     "nationality": "España"
                 },
-                "url": "http://localhost:3001/track-1.mp3"
+                "url": "http://192.168.0.13:3001/track-1.mp3"
             },
             {
                 "idd": 2,
@@ -27,7 +27,7 @@ const getItems = async (req, res) => {
                     "nickname": "Ehta Gente",
                     "nationality": "España"
                 },
-                "url": "http://localhost:3001/track-2.mp3"
+                "url": "http://192.168.0.13:3001/track-2.mp3"
             },
             {
                 "idd": 3,
@@ -39,7 +39,7 @@ const getItems = async (req, res) => {
                     "nickname": "Slayer",
                     "nationality": "US"
                 },
-                "url": "http://localhost:3001/track-3.mp3"
+                "url": "http://192.168.0.13:3001/track-3.mp3"
             },
             {
                 "idd": 4,
@@ -51,7 +51,7 @@ const getItems = async (req, res) => {
                     "nickname": "Velvet",
                     "nationality": "US"
                 },
-                "url": "http://localhost:3001/track-4.mp3"
+                "url": "http://192.168.0.13:3001/track-4.mp3"
             },
             {
                 "idd": 5,
@@ -63,7 +63,7 @@ const getItems = async (req, res) => {
                     "nickname": "Belgrado",
                     "nationality": "España"
                 },
-                "url": "http://localhost:3001/track-5.mp3"
+                "url": "http://192.168.0.13:3001/track-5.mp3"
             },
             {
                 "idd": 6,
@@ -75,7 +75,7 @@ const getItems = async (req, res) => {
                     "nickname": "ACDC",
                     "nationality": "Australian"
                 },
-                "url": "http://localhost:3001/track-6.mp3"
+                "url": "http://192.168.0.13:3001/track-6.mp3"
             },
             {
                 "idd": 7,
@@ -87,7 +87,7 @@ const getItems = async (req, res) => {
                     "nickname": "Bahuaus",
                     "nationality": "UK"
                 },
-                "url": "http://localhost:3001/track-7.mp3"
+                "url": "http://192.168.0.13:3001/track-7.mp3"
             },
             {
                 "idd": 8,
@@ -99,7 +99,7 @@ const getItems = async (req, res) => {
                     "nickname": "Baron Rojo",
                     "nationality": "España"
                 },
-                "url": "http://localhost:3001/track-8.mp3"
+                "url": "http://192.168.0.13:3001/track-8.mp3"
             },
             {
                 "idd": 9,
@@ -111,7 +111,7 @@ const getItems = async (req, res) => {
                     "nickname": "ACDC",
                     "nationality": "Australian"
                 },
-                "url": "https://localhost:3001/track-9.mp3"
+                "url": "http://192.168.0.13:3001/track-9.mp3"
             }
         ]
         res.send({ data: listAll })
